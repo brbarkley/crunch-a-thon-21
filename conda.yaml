@@ -1,0 +1,8 @@
+name: cookiecutter-gl-template
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - dvc
+  - numpy
+  - pandas
