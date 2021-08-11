@@ -50,11 +50,10 @@
     │
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py       <- Makes src a Python module
-    │   ├── databuilder       <- Submodule to download, generate, and/or process data
-    │   ├── features          <- Submodule to turn raw data into features for modeling
-    │   ├── models            <- Submodule to estimate models
-    │   ├── tools             <- Submodule with helper modules
-    │   └── visualization     <- Submodule to create exploratory and results-oriented visualizations
+    │   ├── databuilder       <- Download, generate, and/or process data
+    │   ├── models            <- Estimate models
+    │   ├── tools             <- Other helper code
+    │   └── visualization     <- Create graphs and tables
     │
     ├── conda.yaml         <- Requirments for reproducing the analysis environment with conda
     ├── pytest.ini         <- pytest configuration file
