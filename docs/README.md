@@ -7,14 +7,14 @@ technical documentation and/or reports.
 
 ```
 # sphinx-quickstart will create core sphinx files and directory structure
-cd ~/cookiecutter-gl-template/docs
+cd ~/cookiecutter-gl-template-simple/docs
 sphinx-quickstart
 ```
 
 2. Create your sphinx docs
 
 ```
-cd ~/cookiecutter-gl-template
+cd ~/cookiecutter-gl-template-simple
 sphinx-build -b html docs docs/_build/html
 ```
 
