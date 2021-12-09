@@ -1,4 +1,4 @@
-# cookiecutter-gl-template-simple
+# Crunch-a-thon: Transcribe This!
 
 - Describe very briefly but clearly what the project does.
 - List its most useful/innovative/noteworthy features.
@@ -14,7 +14,24 @@
 
 ## Getting Started
 
-- Getting, installing, configuring, running, understanding, etc. the project
+### environment setup
+
+```
+conda create -f conda.yaml
+conda activate crunch-a-thon-21
+```
+
+### download external dependencies
+
+```
+# Download pre-trained English model files
+curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0.9.3-models.pbmm
+mv deepspeech-0.9.3-models.pbmm src/
+
+curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0.9.3-models.scorer
+mv deepspeech-0.9.3-models.scorer src/
+```
+
 
 
 ## Project Organization
