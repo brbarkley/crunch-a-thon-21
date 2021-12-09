@@ -1,4 +1,4 @@
-# cookiecutter-gl-template
+# cookiecutter-gl-template-simple
 
 - Describe very briefly but clearly what the project does.
 - List its most useful/innovative/noteworthy features.
@@ -21,7 +21,6 @@
 --------------------
 
 ``` .
-    ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project
     ├── CHANGELOG.md       <- changelog to record notable changes for each version of the project
     │
@@ -31,13 +30,7 @@
     │   └── raw            <- The original, immutable data dump.
     │
     ├── docs               <- Model and data documentation, validation, and analysis.
-    │   ├── conf.py        <- Sphinx configuration file, created upon running sphinx-quickstart
-    │   ├── _build         <- Sphinx build files, created upon running sphinx-build 
-    │   │                     (by default, git ignores the build files)
     │   ├── README.md      <- A README for getting started with Sphinx
-    │   ├── references     <- External data dictionaries, manuals, and citations.
-    │   ├── reports        <- Generated ad-hoc analyses as HTML, PDF, LaTeX, PowerPoint etc.
-    │   └── validation     <- Store model validation materials.
     │
     ├── output             <- Generated analysis and model output
     │   ├── figures        <- Generated graphics and figures to be used in reporting
@@ -50,10 +43,6 @@
     │
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py       <- Makes src a Python module
-    │   ├── databuilder       <- Download, generate, and/or process data
-    │   ├── models            <- Estimate models
-    │   ├── tools             <- Other helper code
-    │   └── visualization     <- Create graphs and tables
     │
     ├── conda.yaml         <- Requirments for reproducing the analysis environment with conda
     ├── pytest.ini         <- pytest configuration file
