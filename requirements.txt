@@ -1,2 +1,7 @@
-numpy
-pandas
+backports.functools_lru_cache==1.6.4
+deepspeech==0.9.3
+ipykernel==6.6.0
+pandas==1.2.3
+pipdeptree==2.2.0
+pydub==0.25.1
+vosk==0.3.32

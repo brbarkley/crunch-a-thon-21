@@ -113,3 +113,5 @@ dask-worker-space/
 # remove mp3 and wav
 *.mp3
 *.wav
+*tar.gz
+data/test/audio

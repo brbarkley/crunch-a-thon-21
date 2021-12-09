@@ -61,6 +61,10 @@ dependencies:
   - zipp=3.6.0=pyhd8ed1ab_0
   - zlib=1.2.11=h8ffe710_1013
   - pip:
+    - cffi==1.15.0
     - deepspeech==0.9.3
     - numpy==1.17.0
+    - pipdeptree==2.2.0
+    - pycparser==2.21
+    - vosk==0.3.32
 prefix: C:\DevTools\miniconda3\envs\crunch-a-thon-21

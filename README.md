@@ -17,8 +17,10 @@
 ### environment setup
 
 ```
-conda create -f conda.yaml
+conda create -n crunch-a-thon-21 python=3.7
 conda activate crunch-a-thon-21
+conda install --file requirements.txt
+pip install vosk
 ```
 
 ### download external dependencies
@@ -30,6 +32,11 @@ mv deepspeech-0.9.3-models.pbmm src/
 
 curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0.9.3-models.scorer
 mv deepspeech-0.9.3-models.scorer src/
+
+# Download example audio files
+curl -kLO https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/audio-0.9.3.tar.gz
+mv audio-0.9.3.tar.gz data/test
+tar xvf data/test/audio-0.9.3.tar.gz 
 ```
 
 
